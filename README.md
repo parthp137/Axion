@@ -2,6 +2,9 @@
 
 Axion is a front-end web project designed to demonstrate a fully interactive navigation system with smooth scrolling, active section highlighting, mobile responsiveness, and a modern dark-themed interface. It is built using HTML, CSS, and JavaScript.
 
+## Live Demo
+https://parthp137.github.io/PRODIGY_WD_01/
+
 ## Features
 
 ### Navigation System
