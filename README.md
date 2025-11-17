@@ -55,13 +55,21 @@ All transitions and interactions are implemented using JavaScript.
 
 ## Project Structure
 ├── index.html # Main webpage
+
 ├── style.css # Styling and layout
+
 ├── script.js # Scroll logic and interactivity
+
 ├── images/ # Car and hero images
+
 │ ├── atlas-gt.jpg
+
 │ ├── be6.jpg
+
 │ ├── hero-bg.jpg
+
 │ └── rover-x.jpg
+
 └── README.md
 
 ## How to Run
