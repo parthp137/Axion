@@ -31,11 +31,12 @@ Tools: VS Code, Git, GitHub Pages
 
 ## Design Overview
 The website uses a modern dark theme and contains the following primary sections:
+
 - Hero section with background image
 - Model cards with vehicle images
 - Review articles
 - Informational sections (maintenance, deals, contact)
-- Interactive test drive form
+- Interactive form for test drive booking
 
 All transitions and interactions are implemented using JavaScript.
 
@@ -63,17 +64,21 @@ All transitions and interactions are implemented using JavaScript.
 │ └── rover-x.jpg
 └── README.md
 
-
 ## How to Run
 
-Clone the repository:
+### 1. Clone the repository:
+
 git clone https://github.com/parthp137/PRODIGY_WD_01.git
 cd PRODIGY_WD_01
 
+### 2. Open the project in a browser:
+- Open `index.html` directly, or
 
-Open the project in a browser:
-- Open `index.html` directly, or  
-- Start a local server:
+### 3. Start a local server:
 python -m http.server 8000
-Then open:
+
+shell
+Copy code
+
+### 4. Open your browser and visit:
 http://localhost:8000
