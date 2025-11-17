@@ -27,6 +27,7 @@ Axion is a front-end web project designed to demonstrate a fully interactive nav
 
 ## Tech Stack
 Frontend: HTML, CSS, JavaScript  
+
 Tools: VS Code, Git, GitHub Pages
 
 ## Design Overview
