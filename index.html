@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Axion — Precision. Passion. Performance.</title>
+  <meta name="description" content="Axion — trusted reviews, model comparisons, maintenance tips and exclusive test drive bookings." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Primary navigation">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">AX</div>
+      <div class="title">Axion</div>
+    </div>
+
+    <div class="nav-wrap">
+      <ul class="nav-list" id="navList">
+        <li class="nav-item"><a href="#home" data-target="home">Home</a></li>
+        <li class="nav-item"><a href="#models" data-target="models">Models</a></li>
+        <li class="nav-item"><a href="#reviews" data-target="reviews">Reviews</a></li>
+        <li class="nav-item"><a href="#maintenance" data-target="maintenance">Maintenance</a></li>
+        <li class="nav-item"><a href="#deals" data-target="deals">Deals</a></li>
+        <li class="nav-item"><a href="#contact" data-target="contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#testdrive" data-target="testdrive">Book Test Drive</a>
+
+      <!-- hamburger toggle -->
+      <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mobileDrawer" aria-label="Open menu">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <!-- mobile drawer -->
+    <div id="mobileDrawer" class="mobile-drawer" role="menu" aria-hidden="true">
+      <a role="menuitem" href="#home" data-target="home">Home</a>
+      <a role="menuitem" href="#models" data-target="models">Models</a>
+      <a role="menuitem" href="#reviews" data-target="reviews">Reviews</a>
+      <a role="menuitem" href="#maintenance" data-target="maintenance">Maintenance</a>
+      <a role="menuitem" href="#deals" data-target="deals">Deals</a>
+      <a role="menuitem" href="#contact" data-target="contact">Contact</a>
+      <hr>
+      <a role="menuitem" href="#testdrive" class="nav-cta" data-target="testdrive">Book Test Drive</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO with background image -->
+  <section id="home" class="hero" style="background-image: url('images/hero-bg.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <h1>Axion</h1>
+      <p class="lead">Precision. Passion. Performance. Real reviews, honest comparisons, and test drive bookings.</p>
+      <p><a class="big-cta" href="#testdrive" data-target="testdrive">Book a Test Drive</a></p>
+    </div>
+  </section>
+
+  <!-- MODELS with images and specs (BE6 replaced Summit EV) -->
+  <section id="models">
+    <h2>Featured Models</h2>
+    <p class="lead">A curated lineup — quick specs and a short takeaway for each model.</p>
+
+    <div class="cards">
+      <!-- Atlas GT -->
+      <article class="card">
+        <div class="card-media" style="background-image:url('images/atlas-gt.jpg')" role="img" aria-label="Atlas GT"></div>
+        <div class="card-body">
+          <h3>Atlas GT</h3>
+          <p class="specs"><strong>Engine:</strong> 2.0L Turbo • <strong>Drivetrain:</strong> AWD • <strong>0-100:</strong> 5.9s</p>
+          <p class="card-text">A driver-focused sport-sedan that blends daily refinement with sharp handling.</p>
+          <a href="#reviews" data-target="reviews" class="small-cta">Read full review</a>
+        </div>
+      </article>
+
+      <!-- BE6 -->
+      <article class="card">
+        <div class="card-media" style="background-image:url('images/be6.jpg')" role="img" aria-label="BE6"></div>
+        <div class="card-body">
+          <h3>BE6</h3>
+          <p class="specs"><strong>Range:</strong> 480 km • <strong>Charge:</strong> 180 kW • <strong>0-100:</strong> 6.2s</p>
+          <p class="card-text">A refined long-range EV with modern styling, smooth power delivery, and excellent cabin tech.</p>
+          <a href="#reviews" data-target="reviews" class="small-cta">Read full review</a>
+        </div>
+      </article>
+
+      <!-- Rover X -->
+      <article class="card">
+        <div class="card-media" style="background-image:url('images/rover-x.jpg')" role="img" aria-label="Rover X"></div>
+        <div class="card-body">
+          <h3>Rover X</h3>
+          <p class="specs"><strong>Fuel:</strong> Petrol • <strong>Economy:</strong> 18 km/l • <strong>Class:</strong> Compact CUV</p>
+          <p class="card-text">A practical crossover with confident handling and excellent city maneuverability.</p>
+          <a href="#reviews" data-target="reviews" class="small-cta">Read full review</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- REVIEWS (BE6 + Atlas GT + Rover X) -->
+  <section id="reviews">
+    <h2>Road & Track Reviews</h2>
+    <p class="lead">In-depth tests, objective conclusions, and buyer guidance.</p>
+
+    <!-- Atlas GT Review -->
+    <article class="review">
+      <h3>Atlas GT — Track & Road Test</h3>
+      <p>The Atlas GT feels planted and predictable at high speeds. Strong mid-range torque and tight steering make it ideal for spirited highway driving.</p>
+      <ul class="review-meta">
+        <li>Score: 8.6/10</li>
+        <li>Comfort: Excellent</li>
+        <li>Value: Good</li>
+      </ul>
+    </article>
+
+    <!-- BE6 Review -->
+    <article class="review">
+      <h3>BE6 — Long Range & Efficiency Test</h3>
+      <p>The BE6 performed strongly in real-world range tests with excellent battery control and quiet cabin dynamics. Charging at up to 180 kW is fast and stable, making long-distance driving convenient. Interior tech is polished and ergonomically laid out.</p>
+      <ul class="review-meta">
+        <li>Score: 9.1/10</li>
+        <li>Range: 480 km</li>
+        <li>Charging: 180 kW</li>
+      </ul>
+    </article>
+
+    <!-- Rover X Review -->
+    <article class="review">
+      <h3>Rover X — Urban Handling & Practicality Review</h3>
+      <p>The Rover X shines in tight traffic and narrow city streets. Light steering, great visibility and efficient fuel consumption make it an ideal city commuter. Rear seats fold flat to offer surprising cargo flexibility for weekend trips.</p>
+      <ul class="review-meta">
+        <li>Score: 8.4/10</li>
+        <li>Efficiency: Excellent</li>
+        <li>Comfort: Very Good</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- MAINTENANCE -->
+  <section id="maintenance">
+    <h2>Maintenance Tips</h2>
+    <p class="lead">Short checklists to keep your vehicle reliable and resale-ready.</p>
+    <ul class="maint-list">
+      <li><strong>Monthly:</strong> Check tire pressure, lights, and fluids.</li>
+      <li><strong>6 months:</strong> Brake inspection, battery check, filter clean.</li>
+      <li><strong>Yearly:</strong> Full service, alignment, replace cabin filter.</li>
+    </ul>
+  </section>
+
+  <!-- DEALS -->
+  <section id="deals">
+    <h2>Latest Deals</h2>
+    <p class="lead">Limited-time offers and seasonal financing.</p>
+    <div class="deal-card">
+      <strong>Summer Drive Offer:</strong> 0.99% APR for 24 months on select models. Demo cars with additional savings available.
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact & Showroom</h2>
+    <p class="lead">Visit our test center or reach out for personalised help.</p>
+    <address class="contact-addr">
+      Axion Test Center<br>
+      123 Auto Lane, Motor City<br>
+      <a href="tel:+911234567890">+91 12345 67890</a>
+    </address>
+  </section>
+
+  <!-- TEST DRIVE FORM -->
+  <section id="testdrive">
+    <h2>Book Test Drive</h2>
+    <p class="lead">Tell us which model and when — we’ll confirm by phone.</p>
+    <form id="testDriveForm" class="form">
+      <label>
+        Full name
+        <input type="text" name="name" required />
+      </label>
+      <label>
+        Phone
+        <input type="tel" name="phone" required />
+      </label>
+      <label>
+        Model
+        <select name="model" required>
+          <option value="Atlas GT">Atlas GT</option>
+          <option value="BE6">BE6</option>
+          <option value="Rover X">Rover X</option>
+        </select>
+      </label>
+      <label>
+        Preferred date
+        <input type="date" name="date" required />
+      </label>
+      <button type="submit" class="form-cta">Request Test Drive</button>
+      <div id="formMsg" aria-live="polite"></div>
+    </form>
+  </section>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
