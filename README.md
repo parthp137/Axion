@@ -80,8 +80,8 @@ All transitions and interactions are implemented using JavaScript.
 
 ### 1. Clone the repository:
 
-git clone https://github.com/parthp137/PRODIGY_WD_01.git
-cd PRODIGY_WD_01
+git clone https://github.com/parthp137/Axion.git
+cd Axion
 
 ### 2. Open the project in a browser:
 - Open `index.html` directly, or
